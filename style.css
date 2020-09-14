@@ -72,7 +72,8 @@
 }
 
 body {
-  font-family: 'Loved by the King', cursive;
+  font-family: "Loved by the King", cursive;
+  margin: 0;
 }
 
 ul {
@@ -90,7 +91,7 @@ button {
 }
 
 /* Typography */
-h1 {
+/* h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
   color: var(--color-black);
@@ -113,29 +114,40 @@ p {
   font-weight: var(--font-regular);
   color: var(--color-black);
   margin: 4px 0;
-}
+} */
 
 /*  */
 
-.container{
+.container {
   /* display: flex;
   flex-direction: row; */
-position: relative;
-max-width: 250rem;
-background-color: #00ccff;
-
+  position: relative;
+  max-width: 200rem;
+  background-color: #00ccff;
 }
 
-.img{
-
+.img {
+  /* width: auto; */
+  /* margin: auto; */
+  /* width: 110%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.p{
- /* position: absolute; */
+.p {
+  /* position: absolute; */
   top: 0;
-  font-size: 5rem; 
+  font-size: 5rem;
 
+  max-width: 80rem;
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 10rem;
 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Navbar */
 #navbar {
@@ -156,5 +168,13 @@ background-color: #00ccff;
     --font-small: 14px;
 
     --font-micro: 12px;
+  }
+
+  .img {
+    width: 50%;
+  }
+
+  .p {
+    font-size: 1rem;
   }
 }
