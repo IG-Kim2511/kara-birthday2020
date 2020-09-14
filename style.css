@@ -72,8 +72,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Loved by the King', cursive;
 }
 
 ul {
@@ -116,6 +115,28 @@ p {
   margin: 4px 0;
 }
 
+/*  */
+
+.container{
+  /* display: flex;
+  flex-direction: row; */
+position: relative;
+max-width: 250rem;
+background-color: #00ccff;
+
+}
+
+.img{
+
+}
+
+.p{
+ /* position: absolute; */
+  top: 0;
+  font-size: 5rem; 
+
+
+}
 /* Navbar */
 #navbar {
 }
