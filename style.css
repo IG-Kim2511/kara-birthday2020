@@ -127,8 +127,8 @@ transform: rotateY(360deg);
     }
   
     .card-side {
-        width: 100px;
-        height: 150px;
+        width: 80px;
+        height: 130px;
 
         font-size: 1.5rem;
     }
