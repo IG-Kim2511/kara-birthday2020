@@ -1,23 +1,28 @@
-"use strict";
 
-//JS refresh page every 8 seconds (완성 이후 지우기)
+    //   // 🍀    
+    //   class Card {
+    //     constructor(num, color){
+        
 
-// setTimeout(function () {
-//   window.location.reload(1);
-// }, 8000);
+    //         this.num = num;
+    //         this.color = color;
 
-/* part3 */
-document.write("  1분코딩 JS기초 part3-2 event");
-console.log(" 1분코딩 JS기초 part3-2 event");
+    //         const mainElem = document.createElement('div');
+    //         mainElem.innerHTML = `
+    //         <div class="world">
+    //             <div class="a card-side card-side-front">F</div>
+    //             <div class="a card-side card-side-back">B</div>
+    //         </div>
+    //         `;
+    //         document.body.appendChild(mainElem);
+            
+    //     }
+    // }
 
-//  C 58 . JS 58
+    // // 
 
-// [Selectors]
+    // const card1 = new Card(1, 'green');
+    // const card2 = new Card(7, 'blue');
 
-// [Event Listeners]
-
-// [Funcitons]
-function name(event) {
-  // todo DIV
-  // Create LI
-}
+    // // btnC.addEventListener('click',()=>{  
+    // // });
